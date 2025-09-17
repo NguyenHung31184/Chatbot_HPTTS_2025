@@ -10,15 +10,15 @@ Trung tâm Đào tạo HPTTS trân trọng thông báo lịch khai giảng dự 
 **I. HỆ SƠ CẤP**
 
 1.  **Vận hành cần trục giàn QC, STS (Mã lớp: SC01)**
-    *   Khai giảng: 15/09/2025 (Thứ Hai)
+    *   Khai giảng: 01/10/2025 (Thứ Tư)
     *   Tình trạng: Đang nhận hồ sơ
 
 2.  **Vận hành xe nâng hàng Container (Reach Stacker) (Mã lớp: SC04)**
-    *   Khai giảng: 15/09/2025 (Thứ Hai)
+    *   Khai giảng: 01/10/2025 (Thứ Tư)
     *   Tình trạng: Đang nhận hồ sơ
 
 3.  **Vận hành xe nâng hàng Forklift (Mã lớp: SC05)**
-    *   Khai giảng: 15/09/2025 (Thứ Hai)
+    *   Khai giảng: 01/10/2025 (Thứ Tư)
     *   Tình trạng: Đang nhận hồ sơ.
 
 4.  **Vận hành cần trục giàn RTG (Mã lớp: SC02)**
@@ -26,11 +26,11 @@ Trung tâm Đào tạo HPTTS trân trọng thông báo lịch khai giảng dự 
     *   Tình trạng: Đang nhận hồ sơ.
 
 5.  **Nghiệp vụ Giao nhận hàng hoá (Mã lớp: SC09)**
-    *   Khai giảng: 15/09/2025 (Thứ Hai)
+    *  Khai giảng: 01/10/2025 (Thứ Tư)
     *   Tình trạng: Đang nhận hồ sơ.
 
 6.  **Vận hành cần trục tàu thuỷ (Mã lớp: SC07)**
-    *   Khai giảng: 15/09/2025 (Thứ Hai)
+    *  Khai giảng: 01/10/2025 (Thứ Tư)
     *   Tình trạng: Đang nhận hồ sơ.
 **II. HỆ BỒI DƯỠNG & NÂNG BẬC**
 
