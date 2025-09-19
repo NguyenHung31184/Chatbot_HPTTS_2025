@@ -32,6 +32,10 @@ Trung tâm Đào tạo HPTTS trân trọng thông báo lịch khai giảng dự 
 6.  **Vận hành cần trục tàu thuỷ (Mã lớp: SC07)**
     *  Khai giảng: 01/10/2025 (Thứ Tư)
     *   Tình trạng: Đang nhận hồ sơ.
+    
+7.  **Vận hành cần trục chân đế (Mã lớp: SC03)**
+    *  Khai giảng: 22/09/2025 (Thứ Hai)
+    *   Tình trạng: Đang nhận hồ sơ
 **II. HỆ BỒI DƯỠNG & NÂNG BẬC**
 
 1.  **Nghiệp vụ điều hành và chỉ đạo sản xuất (Mã lớp: BD01)**
