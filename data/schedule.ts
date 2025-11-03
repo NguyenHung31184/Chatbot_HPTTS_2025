@@ -10,41 +10,41 @@ Trung tâm Đào tạo HPTTS trân trọng thông báo lịch khai giảng dự 
 **I. HỆ SƠ CẤP**
 
 1.  **Vận hành cần trục giàn QC, STS (Mã lớp: SC01)**
-    *   Khai giảng: 01/10/2025 (Thứ Tư)
+    *   Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ
 
 2.  **Vận hành xe nâng hàng Container (Reach Stacker) (Mã lớp: SC04)**
-    *   Khai giảng: 01/10/2025 (Thứ Tư)
+    *   Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ
 
 3.  **Vận hành xe nâng hàng Forklift (Mã lớp: SC05)**
-    *   Khai giảng: 01/10/2025 (Thứ Tư)
+    *   Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ.
 
 4.  **Vận hành cần trục giàn RTG (Mã lớp: SC02)**
-    *   Khai giảng: 15/09/2025 (Thứ Hai)
+    *   Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ.
 
 5.  **Nghiệp vụ Giao nhận hàng hoá (Mã lớp: SC09)**
-    *  Khai giảng: 01/10/2025 (Thứ Tư)
+    *  Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ.
 
 6.  **Vận hành cần trục tàu thuỷ (Mã lớp: SC07)**
-    *  Khai giảng: 01/10/2025 (Thứ Tư)
+    *  Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ.
     
 7.  **Vận hành cần trục chân đế (Mã lớp: SC03)**
-    *  Khai giảng: 22/09/2025 (Thứ Hai)
+    *  Khai giảng: 10/11/2025 (Thứ Hai)
     *   Tình trạng: Đang nhận hồ sơ
 **II. HỆ BỒI DƯỠNG & NÂNG BẬC**
 
 1.  **Nghiệp vụ điều hành và chỉ đạo sản xuất (Mã lớp: BD01)**
-    *   Khai giảng: Dự kiến cuối tháng 9/2025.
+    *   Khai giảng: Dự kiến giữa tháng 11/2025.
     *   Lịch học: Các ngày trong tuần.
     *   Tình trạng: Đang khảo sát nhu cầu. Vui lòng liên hệ để đăng ký trước.
 
 2.  **Bồi dưỡng tiếng Anh giao tiếp (Mã lớp: BD02)**
-    *   Khai giảng: Dự kiến cuối tháng 9/2025.
+    *   Khai giảng: Dự kiến giữa tháng 11/2025.
     *   Tình trạng: Đang khảo sát nhu cầu. Vui lòng liên hệ để đăng ký trước.
 
 **III. LỚP ĐANG DIỄN RA**
