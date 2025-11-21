@@ -139,29 +139,6 @@ const hpttsLogoDataUrl = "https://i.postimg.cc/76yv0DBM/1d4b55a2-0860-49cf-b4e7-
 // HƯỚNG DẪN: Dán URL Web App của Google Apps Script bạn đã triển khai vào đây.
 const GOOGLE_SCRIPT_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbx1NOYgn-93fU2oINV9TFxZA1x9X89u_KGr994bfWcKSzCFdEWMh4WQM9YmYZZims5g/exec'; 
 
-// --- GEMINI API KEY RESOLUTION ---
-// NEW: Hàm xử lý để tìm và chọn 1 API Key duy nhất, tránh lỗi "More than one key..."
-const resolveGeminiApiKey = (): string | null => {
-  const possibleKeys = [
-    // Vite convention
-    (import.meta as any).env?.VITE_GEMINI_API_KEY,
-    // Legacy fallbacks defined in vite.config.ts or standard Node
-    process.env.GEMINI_API_KEY,
-    process.env.API_KEY,
-  ].filter(Boolean) as string[];
-
-  if (possibleKeys.length === 0) return null;
-
-  const uniqueKeys = Array.from(new Set(possibleKeys));
-  if (uniqueKeys.length > 1) {
-    console.warn(
-      "Phát hiện nhiều khóa Gemini cùng lúc. Ứng dụng sẽ sử dụng khóa đầu tiên để tránh lỗi 'More than one key was reported as loaded'."
-    );
-  }
-
-  return uniqueKeys[0];
-};
-
 // --- VALIDATION HELPERS ---
 const validateDob = (dobString: string): { isValid: boolean; isAdult: boolean; error?: string } => {
   const match = dobString.match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{4})$/);
@@ -301,10 +278,9 @@ function App() {
   }, []);
 
   useEffect(() => {
-    // NEW: Sử dụng hàm resolveGeminiApiKey
-    const apiKey = resolveGeminiApiKey();
+    const apiKey = process.env.API_KEY;
     if (!apiKey) {
-      console.error("Lỗi: Chưa thiết lập GEMINI_API_KEY/VITE_GEMINI_API_KEY.");
+      console.error("Lỗi: Biến môi trường process.env.API_KEY chưa được thiết lập.");
       addMessage(Sender.BOT, "Lỗi cấu hình: Không tìm thấy API Key. Vui lòng liên hệ quản trị viên để khắc phục sự cố này.");
       return;
     }
@@ -497,16 +473,7 @@ function App() {
         addMessage(Sender.BOT, finalMessage);
     } catch (error) {
         console.error("Lỗi gọi Gemini API:", error);
-        // NEW: Error handling logic từ bản vá
-        const errorMessage = (error as Error)?.message || '';
-        if (errorMessage.includes('More than one key was reported as loaded') || errorMessage.includes('PERSONAL_IN_USE')) {
-          addMessage(
-            Sender.BOT,
-            "Có vẻ ứng dụng đang nạp đồng thời nhiều khóa Gemini, gây ra lỗi xác thực. Vui lòng chỉ giữ lại một biến môi trường GEMINI_API_KEY (hoặc VITE_GEMINI_API_KEY) với duy nhất một khóa hợp lệ, sau đó tải lại trang nhé."
-          );
-        } else {
-          addMessage(Sender.BOT, "Xin lỗi, tôi đang gặp sự cố kỹ thuật. Vui lòng thử lại sau hoặc liên hệ Mr. Hưng (0904468575) hoặc Ms. Thuỷ (0989387936) để được hỗ trợ.");
-        }
+        addMessage(Sender.BOT, "Xin lỗi, tôi đang gặp sự cố kỹ thuật. Vui lòng thử lại sau hoặc liên hệ Mr. Hưng (0904468575) hoặc Ms. Thuỷ (0989387936) để được hỗ trợ.");
     } finally {
         setIsLoading(false);
     }
@@ -640,7 +607,6 @@ function App() {
                 <SendIcon />
               </button>
             </form>
-            <p className="text-center text-xs text-gray-500 mt-2">Mẹo: Nhấn nút "Sao chép" cạnh mỗi câu trả lời để copy nhanh nội dung hoặc mã code.</p>
             <p className="text-center text-xs text-gray-500 mt-2">&copy; 2025 HPTTS</p>
         </div>
       </footer>
